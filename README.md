@@ -1,1 +1,0 @@
-To read my CV, please [link](https://tagea.github.io/rsschool-cv/cv)
