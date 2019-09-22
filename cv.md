@@ -31,8 +31,9 @@ I want to improve knowledge in UX and create the user-accessible interface. Over
 - Jest
 - Adobe After Effects, Adobe Photoshop
 - Autodesk 3ds Max, Autodesk Maya
+
  
- ### Part of react porject
+### Part of react project
  `import React, { useState, useEffect } from 'react';
 import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
