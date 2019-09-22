@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: 'Slabo 27px', 'Tahoma', serif;
+  display: flex;
+  justify-content: center;
+}
+h1{
+  font-family: 'Raleway', 'Verdana', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+}
+h2{
+  margin-bottom: 10px;
+}
+a{
+  color: rgb(59, 96, 97);
+}
+a:hover{
+  text-decoration: none;
+}
+.wrapper{
+  display: flex;
+  max-width: 1024px;
+  padding: 50px;
+}
+header{
+  font-size: 1.2rem;
+}
+section{
+  padding: 40px 0;
+}
+.profile_description{
+  display: flex;
+  margin-top: 30px;
+}
+.profile_description p{
+  padding: 0 10px;
+  line-height: 1.8rem;
+  
+}
+.profile img{
+  height: auto;
+  transition: all 0.3s;
+}
+.profile img:hover{
+  filter: grayscale(50%);
+}
+.contact_info{
+  min-width: 20%;
+  margin-top: 50px;
+  padding-left: 20px;
+}
+.contact_info dt{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

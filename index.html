@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Slabo+27px&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Yulya Vasilyeva</title>
+</head>
+<body>
+  <div class="wrapper">
+    <main>
+        <header>
+          <h1>Vasilyeva Yulya</h1>
+          <div class="profile_description">
+            <picture class="profile">
+                <source srcset="img/profile.webp" type="image/webp">
+                <img src="img/profile.jpg" alt="yulya vasilyeva" width="150" height="225">
+              </picture>
+            <p>In the short term, one of my goals is to continue developing my frontend skills. I want to improve knowledge in UX and create the user-accessible interface. Over the past two years, I've gained knowledge of frontend development. I don't have enough skills in programming that why some of the tasks up a lot of time. Every day I try to know something new in the developing environment. I like to create art and fashion photos, improve in computer graphics and animation.</p>   
+          </div>
+          </header>
+          <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML (HTML5)</li>
+              <li>CSS (CSS3)</li>
+              <li>Less, SASS</li>
+              <li>SVG</li>
+              <li>Bootstrap, Material UI, Foundation</li>
+              <li>JavaScript (ES6)</li>
+              <li>JQuery</li>
+              <li>React</li>
+              <li>Component-styled</li>
+              <li>WebPack, Gulp</li>
+              <li>Git</li>
+              <li>Jest</li>
+              <li>Adobe After Effects, Adobe Photoshop</li>
+              <li>Autodesk 3ds Max, Autodesk Maya</li>
+            </ul>
+          </section>
+          <section id="code">
+            <h2>Part of the React project</h2>
+            <code>
+                import React, { useState, useEffect } from 'react';<br>
+                import { Redirect } from 'react-router-dom';<br>
+                import { connect } from 'react-redux';<br>
+                import PropTypes from 'prop-types';<br><br>
+                import { Auth } from '../components/Auth';<br>
+                import { signInAction, stayInAction } from '../services/auth/actions';<br><br>
+                import { ROUTE_PATHS } from '../utils/paths';<br><br>
+                const AuthContainer = (props) => {<br>
+                 &nbsp;const [form, changeInput] = useState({ username: '', password: '' });<br>
+                 &nbsp;const { authenticated, error } = props;<br><br>
+                
+                  useEffect(() => {<br>
+                    &nbsp;props.stayIn();<br>
+                  });<br><br>
+                
+                  const handleChangeInput = (ev) => {<br>
+                    &nbsp;changeInput({<br>
+                      &nbsp;&nbsp;...form,<br>
+                      &nbsp;&nbsp;[ev.target.name]: ev.target.value<br>
+                      &nbsp;});<br>
+                  };<br><br>
+                
+                  const handleSubmit = () => {<br>
+                    &nbsp;props.signIn(form.username, form.password);<br>
+                  };<br><br>
+                
+                  const pressEnter = (ev) => {<br>
+                    &nbsp;if (ev.key === 'Enter') {<br>
+                      &nbsp;&nbsp;handleSubmit();<br>
+                      &nbsp;}<br>
+                  };<br><br>
+                
+                  if (authenticated) {<br>
+                    &nbsp;return <Redirect to={ROUTE_PATHS.root} />;<br>
+                  }<br>
+                  return (<br>
+                  &nbsp;<Auth <br>
+                      &nbsp;&nbsp;error={error}<br>
+                      &nbsp;&nbsp;value={form}<br>
+                      &nbsp;&nbsp;handleChangeInput={handleChangeInput}<br>
+                      &nbsp;&nbsp;pressEnter={pressEnter}<br>
+                      &nbsp;&nbsp;handleSubmit={handleSubmit}<br>
+                      &nbsp;/><br>
+                      &nbsp;);<br>
+                };<br><br>
+                
+                AuthContainer.propTypes = {<br>
+                  &nbsp;error: PropTypes.bool,<br>
+                  &nbsp;authenticated: PropTypes.bool,<br>
+                  &nbsp;stayIn: PropTypes.func.isRequired,<br>
+                  &nbsp;signIn: PropTypes.func.isRequired<br>
+                };<br><br>
+                
+                AuthContainer.defaultProps = {<br>
+                  &nbsp;error: false,<br>
+                  &nbsp;authenticated: false<br>
+                };<br><br>
+                
+                
+                const mapStateToProps = (state) => ({<br>
+                  &nbsp;authenticated: state.auth.authenticated,<br>
+                  &nbsp;error: state.auth.error<br>
+                });<br><br>
+                
+                const mapDispatchToProps = (dispatch) => ({<br>
+                  &nbsp;stayIn: () => dispatch(stayInAction()),<br>
+                  &nbsp;signIn: (username, password) => dispatch(signInAction(username, password))<br>
+                });<br><br>
+                
+                export default connect(<br>
+                &nbsp;mapStateToProps,<br>
+                &nbsp;mapDispatchToProps<br>
+                )(AuthContainer);<br>
+            </code>
+          </section>
+          <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+              <li>since July 2019 - working in the web-studio Webcat as Frontend developer (landing page, HTML, CSS jQuery, PHP)</li>
+              <li>since February 2019 - internship in the opensource project <a href="http://github.com/tagea/manicure-web-support" target="_blank">"Manicure"</a> (SPA, Redux, Jest/Enzyme, REST API, Material UI + styled-components, ESLint, Webpack)</li>
+              <li>from December 2018 to February 2019 -  internship in the project <a href="http://github.com/gtd-checklist/checklist-web" target="_blank">Checklist</a> (SPA, Redux, Material UI + styled-components, REST API, React Route + HashRouter, ESLint, Webpack)</li>
+              <li>personal project <a href="https://yulyavasilyeva.ru/task-manager">"Task Manager"</a> (SPA, Redux, Ant Design, authorization, get data from REST API, ESLint, Webpack)</li>
+              <li>projects from courses
+                <ul>
+                  <li><a href="http://tagea.github.io/Waxom-landing/" target="_blank">"Waxom"</a> (HTML5, Bootstrap Grid)</li>
+                  <li><a href="https://tagea.github.io/goRUN/">"Go RUN"</a>(css animation, css transform, gradient, SVG, clip-path)</li>
+                  <li><a href="http://tagea.github.io/Studio-interior-Bootstrap/">"Interior Design"</a>(adaptive, WOW scroll, Swiper)</li>
+                  <li><a href="https://github.com/tagea/Cinema-List">"Library"</a>(JS classes, functions, DOM)</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section id="education">
+            <h2>Education</h2>
+            <p><strong>High School</strong></p>
+            <p>European Humanities University (*2004 - 2005*), faculty of information technology, specialty: Web-design and computer graphic<br>
+            Institute of Modern Knowledge (*2005 - 2007*), faculty of economic, specialty: Web-design and computer graphic<br>
+            Belarusian State University (*2007 - 2008*), faculty of liberal education, specialty: Web-design and computer graphic</p>
+            <p><strong>Courses</strong></p>
+            <p>online university Geekbrains (*2018-2019*), specialty: Frontend developer</p>
+          </section>
+          <section id="english">
+            <h2>English</h2>
+            <p>Streamline english Language Course: 2013 - 2014 (A1)<br>
+              School of English Belhard, Spoken English Language Course Pre-Intermediate Level: 2018 (B1)</p>
+          </section>
+      </main>
+      <aside class="contact_info">
+        <h2>Contact info</h2>
+        <dl>
+          <dt>phone</dt>
+          <dd><a href="tel:+375296858506">+375 (29) 685-85-06</a></dd>
+          <dt>email</dt>
+          <dd><a href="mailto:yulyavasilyeva@gmail.com">yulyavasilyeva@gmail.com</a></dd>
+          <dt>site</dt>
+          <dd><a href="https://yulyavasilyeva.ru">yulyavasilyeva.ru</a></dd>
+          <dt>skype</dt>
+          <dd><a href="skype:live:114385cb8ed3ac93?userinfo">live:114385cb8ed3ac93</a></dd>
+          <dt>telegram</dt>
+          <dd><a href="https://t.me/tagea23">tagea23</a></dd>
+          <dt>linkedin</dt>
+          <dd><a href="https://www.linkedin.com/in/yulyavasilyeva/">yulyavasilyeva</a></dd>
+        </dl>
+      </aside>
+  </div>
+</body>
+</html>

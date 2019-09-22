@@ -1,6 +1,6 @@
 # Resume
 
-## Pesonal info
+## Personal info
 
 My name is **Vasilyeva Yulya**.
 
