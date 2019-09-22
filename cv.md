@@ -13,8 +13,7 @@ My name is **Vasilyeva Yulya**.
 | telegram | tagea23                                                       |
 | linkedin | [yulyavasilyeva](https://www.linkedin.com/in/yulyavasilyeva/) |
 
-In the short term, one of my goals is to continue developing my **frontend skills**. 
-I want to improve knowledge in UX and create the user-accessible interface. Over the past two years, I've gained knowledge of frontend development. I don't have enough skills in programming that why some of the tasks up a lot of time. Every day I try to know something new in the developing environment. I like to create art and fashion photos, improve in computer graphics and animation.
+In the short term, one of my goals is to continue developing my **frontend skills**. I want to improve knowledge in UX and create the user-accessible interface. Over the past two years, I've gained knowledge of frontend development. I don't have enough skills in programming that why some of the tasks up a lot of time. Every day I try to know something new in the developing environment. I like to create art and fashion photos, improve in computer graphics and animation.
 
 ## Skills
 - HTML (HTML5)
@@ -33,9 +32,9 @@ I want to improve knowledge in UX and create the user-accessible interface. Over
 - Autodesk 3ds Max, Autodesk Maya
 
 
-### Part of react project
+### Part of the React project
 ```
- import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
@@ -136,4 +135,5 @@ export default connect(
 ## English
 
 Streamline english Language Course: 2013 - 2014 (A1)
+
 Scool of English Belhard, Spoken English Language Course Pre-Intermediate Level: 2018 (B1)
