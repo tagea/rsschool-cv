@@ -115,10 +115,10 @@ export default connect(
 ## Experience
 
 - since July 2019 - working in the web-studio Webcat as Frontend developer (landing page, HTML, CSS jQuery, PHP)
-- since February 2019 - internship in opensource project ["Manicure"](http://github.com/tagea/manicure-web-support) (SPA, Redux, Jest/Enzyme, REST API, Material UI + styled-components, ESLint, Webpack)
+- since February 2019 - internship in the opensource project ["Manicure"](http://github.com/tagea/manicure-web-support) (SPA, Redux, Jest/Enzyme, REST API, Material UI + styled-components, ESLint, Webpack)
 - from December 2018 to February 2019 -  internship in the project [Checklist](http://github.com/gtd-checklist/checklist-web) (SPA, Redux, Material UI + styled-components, REST API, React Route + HashRouter, ESLint, Webpack)
 - personal project ["Task Manager"](https://yulyavasilyeva.ru/task-manager) (SPA, Redux, Ant Design, authorization, get data from REST API, ESLint, Webpack)
-- project from courses 
+- projects from courses 
   - ["Waxom"](http://tagea.github.io/Waxom-landing/) (HTML5, Bootstrap Grid)
   - ["Go RUN"](https://tagea.github.io/goRUN/) (css animation, css transform, gradient, SVG, clip-path)
   - ["Interior Design"](http://tagea.github.io/Studio-interior-Bootstrap/) (adaptive, WOW scroll, Swiper)
@@ -127,13 +127,13 @@ export default connect(
 
 ## Education
 
-- European Humanities University (*2004 - 2005*), faculty of information technology, Web-desing and computer graphic
-- Institute of Modern Knowledge (*2005 - 2007*), faculty of economic, Web-desing and computer graphic
-- Belarusian State University (*2007 - 2008*), faculty of liberal education, Web-desing and computer graphic
+- European Humanities University (*2004 - 2005*), faculty of information technology, specialty: Web-design and computer graphic
+- Institute of Modern Knowledge (*2005 - 2007*), faculty of economic, specialty: Web-design and computer graphic
+- Belarusian State University (*2007 - 2008*), faculty of liberal education, specialty: Web-design and computer graphic
 
 
 ## English
 
 Streamline english Language Course: 2013 - 2014 (A1)
 
-Scool of English Belhard, Spoken English Language Course Pre-Intermediate Level: 2018 (B1)
+School of English Belhard, Spoken English Language Course Pre-Intermediate Level: 2018 (B1)
