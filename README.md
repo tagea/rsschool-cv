@@ -1,1 +1,1 @@
-To read my CV, please [link](https://tagea.github.io/rsschool-cv/cv)
+To read my CV, please [link mardown file](https://tagea.github.io/rsschool-cv/cv) or [html page](https://tagea.github.io/rsschool-cv/)
