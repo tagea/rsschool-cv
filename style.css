@@ -7,6 +7,9 @@ html{
   display: flex;
   justify-content: center;
 }
+body{
+  font-size: 1.1rem;
+}
 h1{
   font-family: 'Raleway', 'Verdana', sans-serif;
   text-transform: uppercase;
@@ -14,6 +17,9 @@ h1{
 }
 h2{
   margin-bottom: 10px;
+}
+h3{
+  margin-top: 6px;
 }
 a{
   color: rgb(59, 96, 97);
@@ -47,6 +53,35 @@ section{
 }
 .profile img:hover{
   filter: grayscale(50%);
+}
+.skill_list{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.skill_list li{
+  padding: 10px;
+  margin: 2px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background-color: rgb(119, 77, 103);
+  color: #ffffff;
+  transition: all 0.4s;
+}
+.skill_list li:hover{
+  border: 1px solid rgb(119, 77, 103);
+  background-color: transparent;
+  color: #000000;
+  cursor: default;
+}
+.experience_list,
+.experience_list ul{
+  margin-left: 20px;
+}
+.experience_list ul{
+  padding-top: 4px;
+  list-style-type: square;
 }
 .contact_info{
   min-width: 20%;
