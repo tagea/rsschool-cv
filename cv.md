@@ -126,10 +126,12 @@ export default connect(
 
 
 ## Education
-
-- European Humanities University (*2004 - 2005*), faculty of information technology, specialty: Web-design and computer graphic
-- Institute of Modern Knowledge (*2005 - 2007*), faculty of economic, specialty: Web-design and computer graphic
-- Belarusian State University (*2007 - 2008*), faculty of liberal education, specialty: Web-design and computer graphic
+High School
+: European Humanities University (*2004 - 2005*), faculty of information technology, specialty: Web-design and computer graphic
+: Institute of Modern Knowledge (*2005 - 2007*), faculty of economic, specialty: Web-design and computer graphic
+: Belarusian State University (*2007 - 2008*), faculty of liberal education, specialty: Web-design and computer graphic
+Courses
+:  online university Geekbrains (*2018-2019*), specialty: Frontend developer
 
 
 ## English
